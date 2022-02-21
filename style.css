@@ -1,0 +1,105 @@
+body {
+  display: flex;
+  justify-content: center;
+  background: #d3caca;
+  color: white;
+}
+#main-div {
+  border: 2px solid black;
+  /* background-color: #39b327; */
+  width: 30vw;
+  height: 85vh;
+  border-radius: 5vh;
+  margin-top: 8vh;
+  background: linear-gradient(245deg, #000000 0%, #fdff96 100%),
+    linear-gradient(245deg, #0038ff 0%, #000000 100%),
+    radial-gradient(100% 225% at 100% 0%, #4200ff 0%, #001169 100%),
+    linear-gradient(245deg, #000000 0%, #ffb800 100%),
+    radial-gradient(
+      115% 107% at 40% 100%,
+      #eaf5ff 0%,
+      #eaf5ff 40%,
+      #a9c6de calc(40% + 1px),
+      #a9c6de 70%,
+      #247e6c calc(70% + 2px),
+      #247e6c 85%,
+      #e4c666 calc(85% + 2px),
+      #e4c666 100%
+    ),
+    linear-gradient(
+      65deg,
+      #083836 0%,
+      #083836 40%,
+      #66d37e calc(40% + 1px),
+      #66d37e 60%,
+      #c6e872 calc(60% + 1px),
+      #c6e872 100%
+    );
+  background-blend-mode: overlay, screen, overlay, hard-light, overlay, normal;
+}
+input {
+  height: 5vh;
+  width: 20vw;
+  /* margin-top: 3vh; */
+  margin-bottom: 5px;
+  margin-left: 6vw;
+  border: 4px solid black;
+  border-radius: 2px;
+}
+#select1 {
+  height: 5vh;
+  width: 20.5vw;
+  margin-left: 6vw;
+  border: 2.7px solid black;
+  border-radius: 3px;
+}
+#select2 {
+  height: 5vh;
+  width: 20.5vw;
+  margin-left: 6vw;
+  border: 2.7px solid black;
+  border-radius: 3px;
+}
+h2 {
+  padding-left: 3vw;
+}
+#mainButton {
+  height: 9vh;
+  width: 9vw;
+  margin-left: 6vw;
+  background-color: #67bdaf;
+  border: transparent;
+  border-radius: 5px;
+  font-weight: bold;
+  color: #ffffff;
+  font-weight: 999;
+  background-color: #000000;
+  background-image: linear-gradient(315deg, #000000 0%, #414141 74%);
+}
+#h1First {
+  padding-left: 9.5vw;
+}
+#btn-h2-div {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5vh;
+  margin-bottom: 3vh;
+}
+#heading {
+  margin-right: 4vw;
+  margin-top: 7%;
+  font-size: 3vh;
+  color: #ffffff;
+}
+#saggy {
+  display: flex;
+  padding: 2vh;
+}
+#swapBtn {
+  height: 5vh;
+  width: 5vw;
+  background: #29aadb;
+  margin-top: 2.5vh;
+  border: transparent;
+  margin-left: 10vw;
+}
